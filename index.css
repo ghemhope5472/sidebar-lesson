@@ -8,7 +8,7 @@
 
 
 body{
-    background-color: rgb(204, 203, 201);
+    
     height: 100vh;
     font-family: 'Lexend Mega', sans-serif;
     display: flex;
@@ -19,10 +19,11 @@ header{
     flex-direction: row-reverse;
     align-items: center;
     height: 8vh;
-    background-color: grey;
+    background-color: #E7ECEF;
     padding: 5px;
     position: absolute;
     width: 100vw;
+    box-shadow: 2px 0 4px rgba(10,10,10,0.5);
 }
 header .menuDiv{
     margin: auto 15px;
@@ -36,8 +37,8 @@ header .menuDiv{
 }
 
 nav{
-    background-color: rgb(161, 161, 160);
-    transform: translateX(-200px); 
+    background-color: #274C77;
+    /* transform: translateX(-200px);  */
     height: 100vh; 
     display: flex;
     padding-top: 50px;
@@ -50,11 +51,11 @@ nav li{
     text-align: center;
 }
 nav a{
-    width: 300px;
+    width: 200px;
     text-decoration: none;
 }
 ul{
-    background-color: rgb(59, 57, 58);
+    background-color: #274C77;
     width: 300px;
 }
 
@@ -64,7 +65,7 @@ ul li a{
 }
 
 ul li:hover{
-    background-color: rgb(82, 80, 81);
+    background-color: #6096BA;
 }
 
 .bar1, .bar2, .bar3{
@@ -87,7 +88,10 @@ ul li:hover{
 .change .bar3{
     transform: rotate(45deg) translate(-7px, -7px);
 }
-/* .change .nav{
-    transform: translateX(300px); 
-} */
+
+#main{
+    background-color: #E7ECEF;
+    width: 100%;
+    padding: 50px;
+}
 
