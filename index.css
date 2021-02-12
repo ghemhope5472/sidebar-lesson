@@ -37,6 +37,7 @@ header .menuDiv{
 }
 
 nav{
+    width: 0;
     background-color: #274C77;
     /* transform: translateX(-200px);  */
     height: 100vh; 
@@ -49,18 +50,23 @@ nav li{
     list-style-type: none;
     padding: 20px;
     text-align: center;
+    transition: all 0.3s ease;
 }
 nav a{
     width: 200px;
     text-decoration: none;
+    
 }
 ul{
     background-color: #274C77;
     width: 300px;
+    
+    
 }
 
 ul li a{
     color: floralwhite;
+    
     
 }
 
@@ -92,6 +98,6 @@ ul li:hover{
 #main{
     background-color: #E7ECEF;
     width: 100%;
-    padding: 50px;
+    padding: 100px 50px;
 }
 
